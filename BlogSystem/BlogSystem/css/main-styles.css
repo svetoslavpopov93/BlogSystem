@@ -1,0 +1,122 @@
+﻿body, section, article, aside, nav, ul, li, p, div, span, a, img, input, select, option {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width:99%;
+    background-image: url("/assets/background2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 800px;
+    font-size: 24px;
+    font-family: Gabriola;
+}
+
+#title-img {
+position: relative;
+top: 335px;
+left: 20px;
+clear: both;
+width: 500px;
+    opacity: 0.8;
+}
+
+#title-img:hover{
+    opacity: 1;
+}
+
+#navigation-div{
+font-size: 2em;
+text-align: left;
+opacity: 0.8;
+height: 60px;
+margin-right: 2%;
+}
+
+#navigation-div ul {
+    list-style-type: none;
+    text-align:left;
+}
+
+#navigation-div ul li{
+    display: inline-block;
+    font-size: 1.4em;
+}
+
+#navigation-div ul li a{
+    text-decoration: none;
+color: black;
+margin-left: 10px;
+}
+
+#navigation-div ul li a:hover{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#navigation-div ul li a{
+    text-decoration: none;
+color: black;
+margin-left: 10px;
+}
+
+body #content {
+    
+    margin-top: 340px;
+}
+
+body #wrapper {
+    min-height: 650px;
+    background-color: #C8C1A4;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 50px;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 100px;
+    opacity: 0.8;
+}
+
+    body #wrapper ul {
+        display: block;
+        margin: 0 auto;
+        list-style-type: none;
+    }
+
+        body #wrapper ul li {
+            background-color: #EBE6E0;
+            display: block;
+            padding: 5%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-radius: 5px;
+        }
+
+            body #wrapper ul li h1 {
+            }
+
+            body #wrapper ul li p {
+                clear: both;
+            }
+
+            body #wrapper ul li .first-part {
+                clear: both;
+            }
+
+            body #wrapper ul li p img {
+                width: 380px;
+                height: 480px;
+                float: left;
+                display: inline-block;
+                margin: 20px;
+            }
+
+            body #wrapper ul li .second-part {
+                clear: both;
+            }
+
+.clearing-span {
+    clear: both;
+}
